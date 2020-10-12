@@ -129,8 +129,8 @@ function draw(e){
         //線の太さ
         ctx.lineWidth = drawingWidth;
         //ペイントする際の先端の形状
-        ctx.lineCap = "butt";
-        ctx.lineJoin = "miter";
+        ctx.lineCap = "round";
+        ctx.lineJoin = "round";
         //描画に関する色設定
         ctx.strokeStyle = drawingColor;
         //描画する始点をxPosition,yPositionへ変更
